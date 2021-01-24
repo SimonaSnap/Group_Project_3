@@ -105,6 +105,7 @@ h5{
 }
 
 /* Button Style */
+/* to style buttons use CSS from inspect tab in FIGMA and update the below properties */
 .primary-nav-desktop{
     width:100%;
     height:50px;
@@ -163,6 +164,7 @@ h5{
 }
 
 /* Button Position Within Div Using CSS Flex*/
+/* to get rid of the blue outlines - delete "border: 2px solid blue" from all of the below columns */
 .button{
     display: flex;
     width: 100%;
@@ -173,6 +175,16 @@ h5{
     border: 1px solid blue;  
 }
 .bodybutton{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height:100%;
+    padding:5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;  
+}
+.weeklybutton{
     display: flex;
     flex-direction:column;
     width: 100%;
@@ -218,6 +230,8 @@ a:visited {
     grid-gap:5px;
     padding:10px;
 }
+
+ /* to get rid of the red outlines - delete "border: 2px solid red" from all of the below columns */
 .headercolumn1{
     grid-area:column1;
     margin:2px;
@@ -279,11 +293,12 @@ a:visited {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px;
     grid-template-areas:
-     'column1 column2 column2 column2 column2 column2 column2 column8'
+     'column1 column2 column3 column4 column5 column6 column7 column8'
      ;
      grid-gap:10px;
      padding:10px;
  }
+ /* to get rid of the red outlines - delete "border: 2px solid red" from all of the below columns */
 .subheadcopycolumn1{
     grid-area:column1;
     margin:2px;
