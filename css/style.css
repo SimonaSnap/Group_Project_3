@@ -293,7 +293,7 @@ a:visited {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px;
     grid-template-areas:
-     'column1 column2 column2 column2 column2 column2 column2 column8'
+     'column1 column2 column3 column4 column5 column6 column7 column8'
      ;
      grid-gap:10px;
      padding:10px;
@@ -348,70 +348,6 @@ a:visited {
     border: 2px solid red;  
 }
 
-/* This sections is built out to create the horizontal weekly progress section on the homepage */
-/* "sitecontentsubheadcopy" flex grid + template areas */
-.homepageweeklyprogress{
-    width:100vw;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px;
-    grid-template-areas:
-     'column1 column2 column3 column4 column5 column6 column7 column8'
-     ;
-     grid-gap:10px;
-     padding:10px;
- }
-
- /* to get rid of the red outlines - delete "border: 2px solid red" from all of the below columns */
-.homepageweeklyprogresscolumn1{
-    grid-area:column1;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.homepageweeklyprogresscolumn2{
-    grid-area:column2;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.homepageweeklyprogresscolumn3{
-    grid-area:column3;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.homepageweeklyprogresscolumn4{
-    grid-area:column4;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.homepageweeklyprogresscolumn5{
-    grid-area:column5;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.homepageweeklyprogresscolumn6{
-    grid-area:column6;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.homepageweeklyprogresscolumn7{
-    grid-area:column7;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.homepageweeklyprogresscolumn8{
-    grid-area:column8;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-
 /* "sitecontentjoblify" flex grid + template areas */
 
 /* SAMPLE COMMENTED OUT BELOW */
@@ -429,8 +365,6 @@ a:visited {
      padding:10px;
  } */
 
- /* This section built out to house the body content (buttons) for the onboarding and homepage.
- This is designed for items to situate down the center vertically */
 .sitecontentjoblify{
     width:100vw;
     display:grid;
@@ -497,129 +431,54 @@ a:visited {
     text-align: left;
     border: 2px solid red;  
 }
-
-/* This site content section is built out as an 8 x 8 grid */
-.sitecontent8x8grid{
-    width:100vw;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
-    grid-template-areas:
-    'column1 row2 row3 row4 row5 row6 row7 row8'
-    'column2 row2 row3 row4 row5 row6 row7 row8'
-    'column3 row2 row3 row4 row5 row6 row7 row8'
-    'column4 row2 row3 row4 row5 row6 row7 row8'
-    'column5 row2 row3 row4 row5 row6 row7 row8'
-    'column6 row2 row3 row4 row5 row6 row7 row8'
-    'column7 row2 row3 row4 row5 row6 row7 row8'
-    'column8 row2 row3 row4 row5 row6 row7 row8'
-    /* 'row1 row2 row3 row4 row5 row6 row7 row8'
-    'column1 column2 column2 column2 column2 column2 column2 column8'
-    'column1 column2 column2 column2 column2 column2 column2 column8'
-    'column1 column2 column2 column2 column2 column2 column2 column8'
-    'column1 column2 column2 column2 column2 column2 column2 column8'
-    'column1 column2 column2 column2 column2 column2 column2 column8'
-    'column1 column2 column2 column2 column2 column2 column2 column8' */
-     ;
-     grid-gap:10px;
-     padding:10px;
- }
-.sitecontent8x8gridcolumn1{
-    grid-area:column1;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.sitecontent8x8gridcolumn2{
-    grid-area:column2;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.sitecontent8x8gridcolumn3{
-    grid-area:column3;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.sitecontent8x8gridcolumn4{
-    grid-area:column4;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.sitecontent8x8gridcolumn5{
-    grid-area:column5;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.sitecontent8x8gridcolumn6{
-    grid-area:column6;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.sitecontent8x8gridcolumn7{
-    grid-area:column7;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.sitecontent8x8gridcolumn8{
-    grid-area:column8;
-    margin:2px;
-    text-align: left;
-    border: 2px solid red;  
-}
-.sitecontent8x8gridrow1{
+/* .sitecontentrow1{
     grid-area:row1;
     margin:2px;
     text-align: left;
     border: 2px solid red;  
 }
-.sitecontent8x8gridrow2{
+.sitecontentrow2{
     grid-area:row2;
     margin:2px;
     text-align: left;
     border: 2px solid red;  
 }
-.sitecontent8x8gridrow3{
+.sitecontentrow3{
     grid-area:row3;
     margin:2px;
     text-align: left;
     border: 2px solid red;  
 }
-.sitecontent8x8gridrow4{
+.sitecontentrow4{
     grid-area:row4;
     margin:2px;
     text-align: left;
     border: 2px solid red;  
 }
-.sitecontent8x8gridrow5{
+.sitecontentrow5{
     grid-area:row5;
     margin:2px;
     text-align: left;
     border: 2px solid red;  
 }
-.sitecontent8x8gridrow6{
+.sitecontentrow6{
     grid-area:row6;
     margin:2px;
     text-align: left;
     border: 2px solid red;  
 }
-.sitecontent8x8gridrow7{
+.sitecontentrow7{
     grid-area:row7;
     margin:2px;
     text-align: left;
     border: 2px solid red;  
 }
-.sitecontent8x8gridrow8{
+.sitecontentrow8{
     grid-area:row8;
     margin:2px;
     text-align: left;
     border: 2px solid red;  
-}
+} */
 
  /* "footerflexgrid" flex grid template areas */
  .footerflexgrid-desktop{
