@@ -12,7 +12,8 @@
     }
 
     body {
-        background-image: url("Background.png");
-        background-repeat: no-repeat;
+        background-image: url("../images/Background.png");
         background-color: #cccccc;
+        background-size: contain;
+        background-repeat: no-repeat;
        }
