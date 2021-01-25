@@ -1,0 +1,11 @@
+body{
+    background-image: url(../images/profile_background.png);
+    background-size: 101%;
+    background-repeat: no-repeat;
+}
+
+.subheadcopycolumn2{
+    text-align: center;
+    font-size: 28pt;
+    font-family: varela;
+}
