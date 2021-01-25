@@ -7,12 +7,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css"/>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/sxi8udu.css">
 </head>
-<body>
+<body
+>
     <!-- This header HTML is for the Desktop -->
     <header class="headerflexgrid-desktop">
         <div class="headercolumn1">
@@ -71,45 +73,40 @@
 
     <!-- this section is for the weekly tracker design -->
     <!-- Maya - replace the H4 tags in each div below with a jpeg image of each weekly tracker -->
-<section class="homepageweeklyprogress">
+    <section class="homepageweeklyprogress">
     <div class="homepageweeklyprogresscolumn1">
         <div class="weeklybutton">
-            <h4>Column 1</h4>
+            <img src="images/Mo25.png" alt="Monday 25" class="dayofweek">
         </div>
     </div>
     <div class="homepageweeklyprogresscolumn2">
         <div class="weeklybutton">
-            <h4>Column 2</h4>
+            <img src="images/Tu26.png" alt="Tuesday 26" class="dayofweek">
         </div>
     </div>
     <div class="homepageweeklyprogresscolumn3">
         <div class="weeklybutton">
-            <h4>Column 3</h4>
+            <img src="images/We27.png" alt="Tuesday 26" class="dayofweek">
         </div>
     </div>
     <div class="homepageweeklyprogresscolumn4">
         <div class="weeklybutton">
-            <h4>Column 4</h4>
+            <img src="images/Th28.png" alt="Tuesday 26" class="dayofweek">
         </div>
     </div>
     <div class="homepageweeklyprogresscolumn5">
         <div class="weeklybutton">
-            <h4>Column 5</h4>
+            <img src="images/Fr29.png" alt="Tuesday 26" class="dayofweek">
         </div>
     </div>
     <div class="homepageweeklyprogresscolumn6">
         <div class="weeklybutton">  
-            <h4>Column 6</h4>
+            <img src="images/Sa30.png" alt="Tuesday 26" class="dayofweek">
         </div>
     </div>
     <div class="homepageweeklyprogresscolumn7">
         <div class="weeklybutton">
-            <h4>Column 7</h4>
-        </div>
-    </div>
-    <div class="homepageweeklyprogresscolumn8">
-        <div class="weeklybutton">
-            <h4>Column 8</h4>
+            <img src="images/Su31.png" alt="Tuesday 26" class="dayofweek">
         </div>
     </div>
 </section>
@@ -156,19 +153,32 @@
 </section>
 
 <!-- this section is for the footer desktop version-->
-<footer class="footerflexgrid-desktop">
+<div id="resourcesContainer">
+    <div class="navigation">
+        <div class="navigationLink">
+            <a href="#line2">
+                <img src="images/homeTab.png"/></a></div>
+        <div class="navigationLink">
+            <a href="#line">
+                   <img src="images/resourcesTab.png"/></a></div>
+        <div class="navigationLink">
+            <a href="#line3"><img src="images/profileTab.png"/></a></div>
+      </div> 
+      
+      
+<!-- <footer class="footerflexgrid-desktop">
     <div class="footercolumn1">
         <a href="home.html">
             <img src="images/JoblifyLogo.png" alt="Joblify Logo" class="footerlogo">
         </a>
     </div>
-    <!-- <div class="footercolumn2">
+    <div class="footercolumn2">
         <H2>Column 2</H2>
     </div>
     <div class="footercolumn3">
         <h2>Column 3</h2>
     </div> -->
-    <div class="footercolumn4">
+   <!-- <div class="footercolumn4">
         <div class="button">
             <button class="footer-nav" target="_blank"> <a href="resources.html">FAQ</a></button>
         </div>
@@ -183,9 +193,9 @@
             <button class="footer-nav" target="_blank"> <a href="resources.html">ABOUT</a></button>
         </div>
     </div> 
-</footer>
+</footer> 
 
-<!-- this is for the footer tablet version -->
+<!-- this is for the footer tablet version 
 <footer class="footerflexgrid-tablet">
     <div class="footercolumn1">
         <div class=bodybutton>
@@ -208,7 +218,8 @@
             </a> 
         </div>    
     </div> 
-</footer>
+</footer> 
+
 
 <!-- jQuery & Javascript-->
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
