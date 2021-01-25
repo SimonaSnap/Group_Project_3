@@ -798,8 +798,8 @@ a:visited {
          padding:10px;
      }
 
-     /* Resized buttons for Mobile Devices Only*/
-     .body-nav{
+    /* Resized buttons for Mobile Devices Only*/
+    .body-nav{
         width:80%;
         height:50px;
         margin:0px;

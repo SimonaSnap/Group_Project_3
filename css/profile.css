@@ -4,6 +4,22 @@ body{
     background-repeat: no-repeat;
     font-family: varela, sans-serif;
 }
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #F9F9F9;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding:10px;
+    position: fixed;
+    z-index: 1 !important;
+    }
+
+.link {
+    
+}
 
 .subheadcopycolumn2{
     text-align: center;
@@ -14,3 +30,806 @@ body{
     text-align: center;
     font-size: 42pt;
 }
+
+/* Varela Google Open Font - H1 to H5 */
+h1{
+    font-size:50px;
+    font-family: 'Varela', sans-serif;
+    font-weight:400;
+    padding: 5px;
+    color:red;
+}
+h2{
+    font-size:38px;
+    font-family: 'Varela', sans-serif;
+    font-weight:400;
+    padding: 5px;
+    color:red;
+}
+h3{
+    font-size:28px;
+    font-family: 'Varela', sans-serif;
+    font-weight:400;
+    padding: 5px;
+    color:red;
+}
+h4{
+    font-size:21px;
+    font-family: 'Varela', sans-serif;
+    font-weight:400;
+    padding: 5px;
+    color:red;
+}
+h5{
+    font-size:12px;
+    font-family: 'Varela', sans-serif;
+    font-weight:400;
+    padding: 5px;
+    color:red;
+}
+/* Quasimodo Adobe Font - body and small body */
+.bodyfont{
+    font-size:16px;
+    font-family: 'quasimoda', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.smallbodyfont{
+    font-size:12px;
+    font-family: 'quasimoda', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Logo formatting */
+.primarylogo{
+    width:250px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px;    
+}
+.footerlogo{
+    width:150px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px;    
+}
+
+/* Logo sized for Tablet */
+.tabletlogo{
+    width:200px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px;    
+}
+
+/* Logo sized for Mobile */
+.mobilelogo{
+    width:150px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px;    
+}
+
+/* Button Style */
+/* to style buttons use CSS from inspect tab in FIGMA and update the below properties */
+.primary-nav-desktop{
+    width:100%;
+    height:50px;
+    margin:0px;
+    padding:0px;
+    background-color: #B5F9F3;
+    color: #ffffff;
+    font-size: 18px;
+    text-align:center;
+    text-decoration:none;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+.body-nav{
+    width:30%;
+    height:50px;
+    margin:0px;
+    padding:0px;
+    background-color: #B5F9F3;
+    color: #ffffff;
+    font-size: 18px;
+    text-align:center;
+    text-decoration:none;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+.cta-nav{
+    width:10%;
+    height:40px;
+    margin:0px;
+    padding:0px;
+    background-color: #B5F9F3;
+    color: #ffffff;
+    font-size: 18px;
+    text-align:center;
+    text-decoration:none;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+.footer-nav{
+    width:50%;
+    height:30px;
+    margin:0px;
+    padding:0px;
+    background-color: #062559;
+    color: #ffffff;
+    font-size: 12px;
+    text-align:center;
+    text-decoration:none;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+
+/* Button Position Within Div Using CSS Flex*/
+/* to get rid of the blue outlines - delete "border: 2px solid blue" from all of the below columns */
+.button{
+    display: flex;
+    width: 100%;
+    height:100%;
+    padding:5px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: 1px solid blue;  
+}
+.bodybutton{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height:100%;
+    padding:5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;  
+}
+.weeklybutton{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height:100%;
+    padding:5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;  
+}
+
+/* Unvisited Link  */
+a:link{
+    color:#ffffff;
+    text-decoration: none;
+}
+/* Visited Link */
+a:visited {
+    color:#ffffff;
+    text-decoration: none;
+}  
+  /* Mouse over link */
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight:bolder;
+}
+  /* current active link */
+a:active{
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight:bolder;
+}
+
+ /* "headerflexgrid" flex grid + template areas */
+.headerflexgrid-desktop{
+    width:100vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px;
+    grid-template-areas:
+    'column1 column1 column3 column4 column5 column6 column7 column8'
+    ;
+    grid-gap:5px;
+    padding:10px;
+}
+
+ /* to get rid of the red outlines - delete "border: 2px solid red" from all of the below columns */
+.headercolumn1{
+    grid-area:column1;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.headercolumn2{
+    grid-area:column2;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.headercolumn3{
+    grid-area:column3;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.headercolumn4{
+    grid-area:column4;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.headercolumn5{
+    grid-area:column5;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.headercolumn6{
+    grid-area:column6;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.headercolumn7{
+    grid-area:column7;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.headercolumn8{
+    grid-area:column8;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.headerflexgrid-tablet{
+    display:none;
+}
+.headerflexgrid-mobile{
+    display:none;
+}
+/* "sitecontentsubheadcopy" flex grid + template areas */
+.sitecontentsubheadcopy{
+    width:100vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-template-areas:
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
+ /* to get rid of the red outlines - delete "border: 2px solid red" from all of the below columns */
+.subheadcopycolumn1{
+    grid-area:column1;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.subheadcopycolumn2{
+    grid-area:column2;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.subheadcopycolumn3{
+    grid-area:column3;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.subheadcopycolumn4{
+    grid-area:column4;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.subheadcopycolumn5{
+    grid-area:column5;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.subheadcopycolumn6{
+    grid-area:column6;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.subheadcopycolumn7{
+    grid-area:column7;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.subheadcopycolumn8{
+    grid-area:column8;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+
+/* This sections is built out to create the horizontal weekly progress section on the homepage */
+/* "sitecontentsubheadcopy" flex grid + template areas */
+.homepageweeklyprogress{
+    width:100vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-template-areas:
+    'column1 column2 column3 column4 column5 column6 column7 column8'
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
+
+ /* to get rid of the red outlines - delete "border: 2px solid red" from all of the below columns */
+.homepageweeklyprogresscolumn1{
+    grid-area:column1;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.homepageweeklyprogresscolumn2{
+    grid-area:column2;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.homepageweeklyprogresscolumn3{
+    grid-area:column3;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.homepageweeklyprogresscolumn4{
+    grid-area:column4;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.homepageweeklyprogresscolumn5{
+    grid-area:column5;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.homepageweeklyprogresscolumn6{
+    grid-area:column6;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.homepageweeklyprogresscolumn7{
+    grid-area:column7;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.homepageweeklyprogresscolumn8{
+    grid-area:column8;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+
+/* "sitecontentjoblify" flex grid + template areas */
+
+/* SAMPLE COMMENTED OUT BELOW */
+/* .sitecontentgridlayout{
+    width:90vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas:
+    'leftsidebartop middlecolumnrow1 rightcolumnrow1'
+    'leftsidebartop middlecolumnrow2 rightcolumnrow2'
+    'leftsidebarbottom middlecolumnrow3 rightcolumnrow3'
+    ;
+    grid-gap:10px;
+    padding:10px;
+ } */
+
+/* This section built out to house the body content (buttons) for the onboarding and homepage.
+ This is designed for items to situate down the center vertically */
+.sitecontentjoblify{
+    width:100vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-areas:
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
+.sitecontentcolumn1{
+    grid-area:column1;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontentcolumn2{
+    grid-area:column2;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontentcolumn3{
+    grid-area:column3;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontentcolumn4{
+    grid-area:column4;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontentcolumn5{
+    grid-area:column5;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontentcolumn6{
+    grid-area:column6;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontentcolumn7{
+    grid-area:column7;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontentcolumn8{
+    grid-area:column8;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+
+/* This site content section is built out as an 8 x 8 grid */
+.sitecontent8x8grid{
+    width:100vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-areas:
+    'column1 row2 row3 row4 row5 row6 row7 row8'
+    'column2 row2 row3 row4 row5 row6 row7 row8'
+    'column3 row2 row3 row4 row5 row6 row7 row8'
+    'column4 row2 row3 row4 row5 row6 row7 row8'
+    'column5 row2 row3 row4 row5 row6 row7 row8'
+    'column6 row2 row3 row4 row5 row6 row7 row8'
+    'column7 row2 row3 row4 row5 row6 row7 row8'
+    'column8 row2 row3 row4 row5 row6 row7 row8'
+    /* 'row1 row2 row3 row4 row5 row6 row7 row8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    'column1 column2 column2 column2 column2 column2 column2 column8' */
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
+.sitecontent8x8gridcolumn1{
+    grid-area:column1;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridcolumn2{
+    grid-area:column2;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridcolumn3{
+    grid-area:column3;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridcolumn4{
+    grid-area:column4;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridcolumn5{
+    grid-area:column5;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridcolumn6{
+    grid-area:column6;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridcolumn7{
+    grid-area:column7;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridcolumn8{
+    grid-area:column8;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridrow1{
+    grid-area:row1;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridrow2{
+    grid-area:row2;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridrow3{
+    grid-area:row3;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridrow4{
+    grid-area:row4;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridrow5{
+    grid-area:row5;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridrow6{
+    grid-area:row6;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridrow7{
+    grid-area:row7;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.sitecontent8x8gridrow8{
+    grid-area:row8;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+
+ /* "footerflexgrid" flex grid template areas */
+.footerflexgrid-desktop{
+    width:100vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 75px;
+    grid-template-areas:
+    'column1 column2 column3 column4 column5 column6'
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
+.footercolumn1{
+    grid-area:column1;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.footercolumn2{
+    grid-area:column2;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.footercolumn3{
+    grid-area:column3;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.footercolumn4{
+    grid-area:column4;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.footercolumn5{
+    grid-area:column5;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.footercolumn6{
+    grid-area:column6;
+    margin:2px;
+    text-align: left;
+    border: 2px solid red;  
+}
+.footerflexgrid-tablet{
+    display:none;
+}
+
+/* media queries below this line only */
+@media only screen and (max-width:1290px){
+    h1{
+        font-size:44px;
+        font-family: 'Varela', sans-serif;
+        font-weight:400;
+        padding: 5px;
+        color:red;
+    }
+@media only screen and (max-width:1150px){
+    
+    /* H1 formatting size down at 1150*/
+    h1{
+        font-size:38px;
+        font-family: 'Varela', sans-serif;
+        font-weight:400;
+        padding: 5px;
+        color: white;
+        }
+
+    /* Logo formatting size down at 1150*/
+    .primarylogo{
+        width:300px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 0px;    
+    }
+    .footerlogo{
+        width:150px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 0px;    
+    }
+
+/*Tablet Settings Starting at Max Width: 834px*/
+@media only screen and (max-width:834px){
+    .headerflexgrid-desktop{
+        display:none;
+    }
+    .primary-nav-desktop{
+        display:none;
+    }
+    .footer-nav{
+        display:none;
+    }
+    .footerflexgrid-desktop{
+        display:none;
+    }
+    /* Subhead Copy - smaller */
+    h1{
+        font-size:24px;
+        font-family: 'Varela', sans-serif;
+        font-weight:400;
+        padding: 5px;
+        color:red;
+    }
+
+    /* "headerflexgrid" for tablet */
+    .headerflexgrid-tablet{
+        width:100vw;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 150px;
+        grid-template-areas:
+        'column1 column2 column3'
+        ;
+        grid-gap:10px;
+        padding:10px;
+    }
+
+    /* "footerflexgrid" for tablet*/
+    .footerflexgrid-tablet{
+    width:100vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px;
+    grid-template-areas:
+    'column1 column2 column3'
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
+.tablet-tab{
+    height:50px;
+
+}
+
+/*Mobile Settings Starting at Max Width: 414px*/
+@media only screen and (max-width:414px){
+    .headerflexgrid-desktop{
+        display:none;
+    }
+    .headerflexgrid-tablet{
+        display:none;
+    }
+
+    .primary-nav-desktop{
+        display:none;
+    }
+    .footer-nav{
+        display:none;
+    }
+    .footerflexgrid-desktop{
+        display:none;
+    }
+     /* Subhead Copy - smaller */
+    h1{
+        font-size:18px;
+        font-family: 'Varela', sans-serif;
+        font-weight:400;
+        padding: 5px;
+        color:red;
+    }
+
+    /* "headerflexgrid" for mobile */
+    .headerflexgrid-mobile{
+        width:100vw;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px;
+        grid-template-areas:
+        'column1'
+        ;
+        grid-gap:10px;
+        padding:10px;
+    }
+
+    /* Resized buttons for Mobile Devices Only*/
+    .body-nav{
+        width:80%;
+        height:50px;
+        margin:0px;
+        padding:0px;
+        background-color: #062559;
+        color: #ffffff;
+        font-size: 18px;
+        text-align:center;
+        text-decoration:none;
+        border-radius: 10px;
+        border-width: 2px;
+        border-color: #ffffff;
+    }
+    .cta-nav{
+        width:50%;
+        height:40px;
+        margin:0px;
+        padding:0px;
+        background-color: #062559;
+        color: #ffffff;
+        font-size: 18px;
+        text-align:center;
+        text-decoration:none;
+        border-radius: 10px;
+        border-width: 2px;
+        border-color: #ffffff;
+    }
+    .tablet-tab{
+        height:40px;
+    }
