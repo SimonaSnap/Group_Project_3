@@ -1,42 +1,70 @@
-/* site background goes here */
 body{
-    background-color:#FFFFFF;
+    background-image: url(../images/profile_background.png);
+    background-size: 101%;
+    background-repeat: no-repeat;
+    font-family: varela, sans-serif;
 }
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #F9F9F9;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding:10px;
+    position: fixed;
+    z-index: 1 !important;
+    }
+.link {
+    border: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.subheadcopycolumn2{
+    text-align: center;
+    font-size: 28pt;
+}
+
+.profile{
+    text-align: center;
+    font-size: 42pt;
+}
+
 /* Varela Google Open Font - H1 to H5 */
 h1{
     font-size:50px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h2{
     font-size:38px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h3{
     font-size:28px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h4{
     font-size:21px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h5{
     font-size:12px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 /* Quasimodo Adobe Font - body and small body */
 .bodyfont{
@@ -51,32 +79,6 @@ h5{
     font-weight: 400;
     font-style: normal;
 }
-/* .container-fluid{
-    border: 2px solid red;
-}
-
-.container{
-    border: 2px solid red;
-}
-.row{
-    border: 2px solid red;
-    height: 300px; 
-}
-.col{
-    border: 2px solid red;
-} */
-
-/* .navigation{
-    display:grid;
-    width:90vw;
-    padding:10px;
-    position:relative;
-}
-.inline-block-1{
-    display:inline-block;
-    vertical-align:top;
-    margin:2px; */
-/* } */
 
 /* Logo formatting */
 .primarylogo{
@@ -111,35 +113,35 @@ h5{
     height:50px;
     margin:0px;
     padding:0px;
-    background-color: #062559;
-    color: #ffffff;
+    background-color: #B5F9F3;
+    color: #36494E;
     font-size: 18px;
     text-align:center;
     text-decoration:none;
     border-radius: 10px;
     border-width: 2px;
-    border-color: #ffffff;
+    border-color: #17BEBB;
 }
 .body-nav{
     width:30%;
     height:50px;
     margin:0px;
     padding:0px;
-    background-color: #062559;
-    color: #ffffff;
+    background-color: #B5F9F3;
+    color: #36494E;
     font-size: 18px;
     text-align:center;
     text-decoration:none;
     border-radius: 10px;
     border-width: 2px;
-    border-color: #ffffff;
+    border-color: #17BEBB;
 }
 .cta-nav{
     width:10%;
     height:40px;
     margin:0px;
     padding:0px;
-    background-color: #062559;
+    background-color: #B5F9F3;
     color: #ffffff;
     font-size: 18px;
     text-align:center;
@@ -204,19 +206,19 @@ a:link{
 a:visited {
     color:#ffffff;
     text-decoration: none;
-  }  
+}  
   /* Mouse over link */
-  a:hover {
+a:hover {
     color: #ffffff;
     text-decoration: underline;
     font-weight:bolder;
-  }
+}
   /* current active link */
-  a:active{
+a:active{
     color: #ffffff;
     text-decoration: underline;
     font-weight:bolder;
-  }
+}
 
  /* "headerflexgrid" flex grid + template areas */
 .headerflexgrid-desktop{
@@ -225,8 +227,8 @@ a:visited {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px;
     grid-template-areas:
-     'column1 column1 column3 column4 column5 column6 column7 column8'
-     ;
+    'column1 column1 column3 column4 column5 column6 column7 column8'
+    ;
     grid-gap:5px;
     padding:10px;
 }
@@ -293,11 +295,11 @@ a:visited {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px;
     grid-template-areas:
-     'column1 column2 column2 column2 column2 column2 column2 column8'
-     ;
-     grid-gap:10px;
-     padding:10px;
- }
+    'column1 column2 column2 column2 column2 column2 column2 column8'
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
  /* to get rid of the red outlines - delete "border: 2px solid red" from all of the below columns */
 .subheadcopycolumn1{
     grid-area:column1;
@@ -356,11 +358,11 @@ a:visited {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px;
     grid-template-areas:
-     'column1 column2 column3 column4 column5 column6 column7 column8'
-     ;
-     grid-gap:10px;
-     padding:10px;
- }
+    'column1 column2 column3 column4 column5 column6 column7 column8'
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
 
  /* to get rid of the red outlines - delete "border: 2px solid red" from all of the below columns */
 .homepageweeklyprogresscolumn1{
@@ -421,15 +423,15 @@ a:visited {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px 200px 200px;
     grid-template-areas:
-     'leftsidebartop middlecolumnrow1 rightcolumnrow1'
-     'leftsidebartop middlecolumnrow2 rightcolumnrow2'
-     'leftsidebarbottom middlecolumnrow3 rightcolumnrow3'
-     ;
-     grid-gap:10px;
-     padding:10px;
+    'leftsidebartop middlecolumnrow1 rightcolumnrow1'
+    'leftsidebartop middlecolumnrow2 rightcolumnrow2'
+    'leftsidebarbottom middlecolumnrow3 rightcolumnrow3'
+    ;
+    grid-gap:10px;
+    padding:10px;
  } */
 
- /* This section built out to house the body content (buttons) for the onboarding and homepage.
+/* This section built out to house the body content (buttons) for the onboarding and homepage.
  This is designed for items to situate down the center vertically */
 .sitecontentjoblify{
     width:100vw;
@@ -445,10 +447,10 @@ a:visited {
     'column1 column2 column2 column2 column2 column2 column2 column8'
     'column1 column2 column2 column2 column2 column2 column2 column8'
     'column1 column2 column2 column2 column2 column2 column2 column8'
-     ;
-     grid-gap:10px;
-     padding:10px;
- }
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
 .sitecontentcolumn1{
     grid-area:column1;
     margin:2px;
@@ -520,10 +522,10 @@ a:visited {
     'column1 column2 column2 column2 column2 column2 column2 column8'
     'column1 column2 column2 column2 column2 column2 column2 column8'
     'column1 column2 column2 column2 column2 column2 column2 column8' */
-     ;
-     grid-gap:10px;
-     padding:10px;
- }
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
 .sitecontent8x8gridcolumn1{
     grid-area:column1;
     margin:2px;
@@ -622,18 +624,18 @@ a:visited {
 }
 
  /* "footerflexgrid" flex grid template areas */
- .footerflexgrid-desktop{
+.footerflexgrid-desktop{
     width:100vw;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 75px;
     grid-template-areas:
-     'column1 column2 column3 column4 column5 column6'
-     ;
-     grid-gap:10px;
-     padding:10px;
- }
- .footercolumn1{
+    'column1 column2 column3 column4 column5 column6'
+    ;
+    grid-gap:10px;
+    padding:10px;
+}
+.footercolumn1{
     grid-area:column1;
     margin:2px;
     text-align: left;
@@ -682,6 +684,7 @@ a:visited {
         padding: 5px;
         color:red;
     }
+}
 @media only screen and (max-width:1150px){
     
     /* H1 formatting size down at 1150*/
@@ -704,6 +707,7 @@ a:visited {
         padding: 10px 10px 10px 10px;
         border-radius: 0px;    
     }
+}
 
 /*Tablet Settings Starting at Max Width: 834px*/
 @media only screen and (max-width:834px){
@@ -718,16 +722,16 @@ a:visited {
     }
     .footerflexgrid-desktop{
         display:none;
-     }
-     /* Subhead Copy - smaller */
-     h1{
+    }
+    /* Subhead Copy - smaller */
+    h1{
         font-size:24px;
         font-family: 'Varela', sans-serif;
         font-weight:400;
         padding: 5px;
         color:red;
     }
-
+    
     /* "headerflexgrid" for tablet */
     .headerflexgrid-tablet{
         width:100vw;
@@ -735,30 +739,31 @@ a:visited {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 150px;
         grid-template-areas:
-         'column1 column2 column3'
-         ;
-         grid-gap:10px;
-         padding:10px;
-     }
+        'column1 column2 column3'
+        ;
+        grid-gap:10px;
+        padding:10px;
+    }
+    
+        /* "footerflexgrid" for tablet*/
+        .footerflexgrid-tablet{
+        width:100vw;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 75px;
+        grid-template-areas:
+        'column1 column2 column3'
+        ;
+        grid-gap:10px;
+        padding:10px;
+    }
+    .tablet-tab{
+        height:50px;
+    }
+}
 
-    /* "footerflexgrid" for tablet*/
-    .footerflexgrid-tablet{
-    width:100vw;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 75px;
-    grid-template-areas:
-     'column1 column2 column3'
-     ;
-     grid-gap:10px;
-     padding:10px;
- }
- .tablet-tab{
-     height:50px;
 
- }
-
- /*Mobile Settings Starting at Max Width: 414px*/
+/*Mobile Settings Starting at Max Width: 414px*/
 @media only screen and (max-width:414px){
     .headerflexgrid-desktop{
         display:none;
@@ -775,16 +780,15 @@ a:visited {
     }
     .footerflexgrid-desktop{
         display:none;
-     }
+    }
      /* Subhead Copy - smaller */
-     h1{
+    h1{
         font-size:18px;
         font-family: 'Varela', sans-serif;
         font-weight:400;
         padding: 5px;
         color:red;
     }
-
     /* "headerflexgrid" for mobile */
     .headerflexgrid-mobile{
         width:100vw;
@@ -792,11 +796,11 @@ a:visited {
         grid-template-columns: 1fr;
         grid-template-rows: 100px;
         grid-template-areas:
-         'column1'
-         ;
-         grid-gap:10px;
-         padding:10px;
-     }
+        'column1'
+        ;
+        grid-gap:10px;
+        padding:10px;
+    }
 
     /* Resized buttons for Mobile Devices Only*/
     .body-nav{
@@ -828,49 +832,6 @@ a:visited {
         border-color: #ffffff;
     }
     .tablet-tab{
-        height:40px;
+        height: 40px;
     }
-
-
-
-
-
- /* BELOW THIS LINE UNUSED CODE - INCASE WE NEED IT! THIS IS SINGLE COLUMN MOBILE DESIGN */
-
-    /* footer{
-    width:100vw;
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content: flex-start;
-    background-color: #373738;
-    padding: 10px 10px 10px 10px;
-} 
-
-/*  .sitecontentrightblock{
-        width:90vw;
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 200px 200px 200px;
-        grid-template-areas:
-        'leftsidebartop'
-        'leftsidebarbottom'
-        'rightcontent';
-        grid-gap:10px;
-        padding:10px;
-    }
-.sitecontentmyskills{
-    width: 90vw;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 200px 200px 200px 200px 200px;
-    grid-template-areas:
-    "leftsidebartop"
-    "leftsidebarbottom"
-    "Row1"
-    "Row2"
-    "Row3"
-    ;
-    grid-gap: 10px;
-    padding: 10px;
 }
