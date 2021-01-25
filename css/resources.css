@@ -10,9 +10,22 @@
     position: fixed;
     z-index: 1 !important;
     }
+body{
+    background-color: #C9FBE0;
+}
+#wave{
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+}
+#wave img {
+    width: 100vw;
+    
+}
 #resourcesContainer{
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
 .logo {
     display: flex;
