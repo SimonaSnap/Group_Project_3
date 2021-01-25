@@ -16,6 +16,10 @@ body{
     position: fixed;
     z-index: 1 !important;
     }
+.link {
+    border: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
 .subheadcopycolumn2{
     text-align: center;
     font-size: 28pt;
