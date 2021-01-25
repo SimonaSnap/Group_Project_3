@@ -16,11 +16,6 @@ body{
     position: fixed;
     z-index: 1 !important;
     }
-
-.link {
-    
-}
-
 .subheadcopycolumn2{
     text-align: center;
     font-size: 28pt;
@@ -37,35 +32,35 @@ h1{
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h2{
     font-size:38px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h3{
     font-size:28px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h4{
     font-size:21px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h5{
     font-size:12px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 /* Quasimodo Adobe Font - body and small body */
 .bodyfont{
@@ -115,13 +110,13 @@ h5{
     margin:0px;
     padding:0px;
     background-color: #B5F9F3;
-    color: #ffffff;
+    color: #36494E;
     font-size: 18px;
     text-align:center;
     text-decoration:none;
     border-radius: 10px;
     border-width: 2px;
-    border-color: #ffffff;
+    border-color: #17BEBB;
 }
 .body-nav{
     width:30%;
@@ -129,13 +124,13 @@ h5{
     margin:0px;
     padding:0px;
     background-color: #B5F9F3;
-    color: #ffffff;
+    color: #36494E;
     font-size: 18px;
     text-align:center;
     text-decoration:none;
     border-radius: 10px;
     border-width: 2px;
-    border-color: #ffffff;
+    border-color: #17BEBB;
 }
 .cta-nav{
     width:10%;
