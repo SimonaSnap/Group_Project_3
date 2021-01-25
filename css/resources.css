@@ -10,6 +10,10 @@
     position: fixed;
     z-index: 1 !important;
     }
+body{
+    background-color: #C9FBE0;
+    background-image: 
+}
 #resourcesContainer{
     display: flex;
     justify-content: center;
