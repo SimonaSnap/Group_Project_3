@@ -16,11 +16,10 @@ body{
     position: fixed;
     z-index: 1 !important;
     }
-
 .link {
-    
+    border: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
-
 .subheadcopycolumn2{
     text-align: center;
     font-size: 28pt;
@@ -37,35 +36,35 @@ h1{
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h2{
     font-size:38px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h3{
     font-size:28px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h4{
     font-size:21px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 h5{
     font-size:12px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color: #36494E;
 }
 /* Quasimodo Adobe Font - body and small body */
 .bodyfont{
@@ -115,13 +114,13 @@ h5{
     margin:0px;
     padding:0px;
     background-color: #B5F9F3;
-    color: #ffffff;
+    color: #36494E;
     font-size: 18px;
     text-align:center;
     text-decoration:none;
     border-radius: 10px;
     border-width: 2px;
-    border-color: #ffffff;
+    border-color: #17BEBB;
 }
 .body-nav{
     width:30%;
@@ -129,13 +128,13 @@ h5{
     margin:0px;
     padding:0px;
     background-color: #B5F9F3;
-    color: #ffffff;
+    color: #36494E;
     font-size: 18px;
     text-align:center;
     text-decoration:none;
     border-radius: 10px;
     border-width: 2px;
-    border-color: #ffffff;
+    border-color: #17BEBB;
 }
 .cta-nav{
     width:10%;
@@ -143,7 +142,7 @@ h5{
     margin:0px;
     padding:0px;
     background-color: #B5F9F3;
-    color: #ffffff;
+    color: #36494E;
     font-size: 18px;
     text-align:center;
     text-decoration:none;
@@ -156,8 +155,8 @@ h5{
     height:30px;
     margin:0px;
     padding:0px;
-    background-color: #062559;
-    color: #ffffff;
+    background-color: #B5F9F3;
+    color: #36494E;
     font-size: 12px;
     text-align:center;
     text-decoration:none;
@@ -175,7 +174,7 @@ h5{
     padding:5px;
     align-items: flex-end;
     justify-content: flex-end;
-    border: 1px solid blue;  
+    border: 2px solid #17BEBB;  
 }
 .bodybutton{
     display: flex;
@@ -185,7 +184,7 @@ h5{
     padding:5px;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;  
+    border: 2px solid #17BEBB;  
 }
 .weeklybutton{
     display: flex;
@@ -195,28 +194,28 @@ h5{
     padding:5px;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;  
+    border: 2px solid #17BEBB;  
 }
 
 /* Unvisited Link  */
 a:link{
-    color:#ffffff;
+    color:#36494E;
     text-decoration: none;
 }
 /* Visited Link */
 a:visited {
-    color:#ffffff;
+    color:#36494E;
     text-decoration: none;
 }  
   /* Mouse over link */
 a:hover {
-    color: #ffffff;
+    color: #36494E;
     text-decoration: underline;
     font-weight:bolder;
 }
   /* current active link */
 a:active{
-    color: #ffffff;
+    color: #36494E;
     text-decoration: underline;
     font-weight:bolder;
 }
@@ -685,6 +684,7 @@ a:active{
         padding: 5px;
         color:red;
     }
+}
 @media only screen and (max-width:1150px){
     
     /* H1 formatting size down at 1150*/
@@ -693,7 +693,7 @@ a:active{
         font-family: 'Varela', sans-serif;
         font-weight:400;
         padding: 5px;
-        color: white;
+        color: #36494E;
         }
 
     /* Logo formatting size down at 1150*/
@@ -707,6 +707,7 @@ a:active{
         padding: 10px 10px 10px 10px;
         border-radius: 0px;    
     }
+}
 
 /*Tablet Settings Starting at Max Width: 834px*/
 @media only screen and (max-width:834px){
@@ -730,7 +731,7 @@ a:active{
         padding: 5px;
         color:red;
     }
-
+    
     /* "headerflexgrid" for tablet */
     .headerflexgrid-tablet{
         width:100vw;
@@ -743,23 +744,24 @@ a:active{
         grid-gap:10px;
         padding:10px;
     }
-
-    /* "footerflexgrid" for tablet*/
-    .footerflexgrid-tablet{
-    width:100vw;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 75px;
-    grid-template-areas:
-    'column1 column2 column3'
-    ;
-    grid-gap:10px;
-    padding:10px;
+    
+        /* "footerflexgrid" for tablet*/
+        .footerflexgrid-tablet{
+        width:100vw;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 75px;
+        grid-template-areas:
+        'column1 column2 column3'
+        ;
+        grid-gap:10px;
+        padding:10px;
+    }
+    .tablet-tab{
+        height:50px;
+    }
 }
-.tablet-tab{
-    height:50px;
 
-}
 
 /*Mobile Settings Starting at Max Width: 414px*/
 @media only screen and (max-width:414px){
@@ -785,9 +787,8 @@ a:active{
         font-family: 'Varela', sans-serif;
         font-weight:400;
         padding: 5px;
-        color:red;
+        color:#ffffff;
     }
-
     /* "headerflexgrid" for mobile */
     .headerflexgrid-mobile{
         width:100vw;
@@ -807,14 +808,14 @@ a:active{
         height:50px;
         margin:0px;
         padding:0px;
-        background-color: #062559;
-        color: #ffffff;
+        background-color: #B5F9F3;
         font-size: 18px;
+        color: #36494E;
         text-align:center;
         text-decoration:none;
         border-radius: 10px;
         border-width: 2px;
-        border-color: #ffffff;
+        border: 2px solid #17BEBB;
     }
     .cta-nav{
         width:50%;
@@ -822,7 +823,7 @@ a:active{
         margin:0px;
         padding:0px;
         background-color: #062559;
-        color: #ffffff;
+        color: #36494E;
         font-size: 18px;
         text-align:center;
         text-decoration:none;
@@ -831,5 +832,6 @@ a:active{
         border-color: #ffffff;
     }
     .tablet-tab{
-        height:40px;
+        height: 40px;
     }
+}
