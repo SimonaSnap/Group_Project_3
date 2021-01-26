@@ -674,6 +674,9 @@ a:visited {
 .footerflexgrid-tablet{
     display:none;
 }
+.footerflexgrid-mobile{
+    display:none;
+}
 
 /* media queries below this line only */
 @media only screen and (max-width:1290px){
