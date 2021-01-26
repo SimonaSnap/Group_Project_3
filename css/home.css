@@ -4,12 +4,13 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
    }
-   
+
+
 .navigation {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    background-color: #F9F9F9;
+    background-color: #F9F9F9;s
     position: fixed;
     bottom: 0px;
     width: 100%;
