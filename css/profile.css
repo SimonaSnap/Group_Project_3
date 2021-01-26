@@ -181,7 +181,7 @@ h5{
     flex-direction:column;
     width: 100%;
     height:100%;
-    padding:5px;
+    padding:10px;
     align-items: center;
     justify-content: center;
     border: 2px solid #17BEBB;  
@@ -236,9 +236,9 @@ a:active{
  /* to get rid of the red outlines - delete "border: 2px solid red" from all of the below columns */
 .headercolumn1{
     grid-area:column1;
-    margin:2px;
+    margin:10px;
     text-align: left;
-    border: 2px solid red;  
+    /*border: 2px solid red;  */
 }
 .headercolumn2{
     grid-area:column2;
@@ -305,13 +305,13 @@ a:active{
     grid-area:column1;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    /*border: 2px solid red; */ 
 }
 .subheadcopycolumn2{
     grid-area:column2;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    /*border: 2px solid red;  */
 }
 .subheadcopycolumn3{
     grid-area:column3;
@@ -782,6 +782,12 @@ a:active{
         display:none;
     }
      /* Subhead Copy - smaller */
+    .describe{
+        color:#ffffff;
+        text-align:center;
+        font-size: 21pt;
+        background-color: #36494E;
+    }
     h1{
         font-size:18px;
         font-family: 'Varela', sans-serif;
