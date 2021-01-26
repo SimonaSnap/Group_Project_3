@@ -682,6 +682,7 @@ a:visited {
         padding: 5px;
         color:red;
     }
+}
 @media only screen and (max-width:1150px){
     
     /* H1 formatting size down at 1150*/
@@ -704,6 +705,7 @@ a:visited {
         padding: 10px 10px 10px 10px;
         border-radius: 0px;    
     }
+}
 
 /*Tablet Settings Starting at Max Width: 834px*/
 @media only screen and (max-width:834px){
@@ -755,7 +757,7 @@ a:visited {
  }
  .tablet-tab{
      height:50px;
-
+ }
  }
 
  /*Mobile Settings Starting at Max Width: 414px*/
@@ -830,6 +832,7 @@ a:visited {
     .tablet-tab{
         height:40px;
     }
+}
 
 
 
