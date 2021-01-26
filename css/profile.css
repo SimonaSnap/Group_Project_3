@@ -142,7 +142,7 @@ h5{
     margin:0px;
     padding:0px;
     background-color: #B5F9F3;
-    color: #ffffff;
+    color: #36494E;
     font-size: 18px;
     text-align:center;
     text-decoration:none;
@@ -155,8 +155,8 @@ h5{
     height:30px;
     margin:0px;
     padding:0px;
-    background-color: #062559;
-    color: #ffffff;
+    background-color: #B5F9F3;
+    color: #36494E;
     font-size: 12px;
     text-align:center;
     text-decoration:none;
@@ -174,7 +174,7 @@ h5{
     padding:5px;
     align-items: flex-end;
     justify-content: flex-end;
-    border: 1px solid blue;  
+    border: 2px solid #17BEBB;  
 }
 .bodybutton{
     display: flex;
@@ -184,7 +184,7 @@ h5{
     padding:5px;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;  
+    border: 2px solid #17BEBB;  
 }
 .weeklybutton{
     display: flex;
@@ -194,28 +194,28 @@ h5{
     padding:5px;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;  
+    border: 2px solid #17BEBB;  
 }
 
 /* Unvisited Link  */
 a:link{
-    color:#ffffff;
+    color:#36494E;
     text-decoration: none;
 }
 /* Visited Link */
 a:visited {
-    color:#ffffff;
+    color:#36494E;
     text-decoration: none;
 }  
   /* Mouse over link */
 a:hover {
-    color: #ffffff;
+    color: #36494E;
     text-decoration: underline;
     font-weight:bolder;
 }
   /* current active link */
 a:active{
-    color: #ffffff;
+    color: #36494E;
     text-decoration: underline;
     font-weight:bolder;
 }
@@ -693,7 +693,7 @@ a:active{
         font-family: 'Varela', sans-serif;
         font-weight:400;
         padding: 5px;
-        color: white;
+        color: #36494E;
         }
 
     /* Logo formatting size down at 1150*/
@@ -787,7 +787,7 @@ a:active{
         font-family: 'Varela', sans-serif;
         font-weight:400;
         padding: 5px;
-        color:red;
+        color:#ffffff;
     }
     /* "headerflexgrid" for mobile */
     .headerflexgrid-mobile{
@@ -808,14 +808,14 @@ a:active{
         height:50px;
         margin:0px;
         padding:0px;
-        background-color: #062559;
-        color: #ffffff;
+        background-color: #B5F9F3;
         font-size: 18px;
+        color: #36494E;
         text-align:center;
         text-decoration:none;
         border-radius: 10px;
         border-width: 2px;
-        border-color: #ffffff;
+        border: 2px solid #17BEBB;
     }
     .cta-nav{
         width:50%;
@@ -823,7 +823,7 @@ a:active{
         margin:0px;
         padding:0px;
         background-color: #062559;
-        color: #ffffff;
+        color: #36494E;
         font-size: 18px;
         text-align:center;
         text-decoration:none;
