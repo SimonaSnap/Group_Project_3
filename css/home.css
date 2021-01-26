@@ -1,3 +1,10 @@
+body {
+    background-image: url("../images/Background.png");
+    background-color: #cccccc;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   
 .navigation {
     display: flex;
     justify-content: space-around;
@@ -11,8 +18,29 @@
     z-index: 1 !important;
     }
 
-    body {
-        background-image: url("Background.png");
-        background-repeat: no-repeat;
-        background-color: #cccccc;
-       }
+.challenge-nav {
+    background-color: #b5f9f3;
+    border: none;
+    width: 95%;
+    color: black;
+    padding: 15px 32px;
+    border-radius: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}    
+
+.wellness-nav {
+    background-color: #17bebb;
+    border: none;
+    width: 95%;
+    color: black;
+    padding: 15px 32px;
+    border-radius: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}    
+
