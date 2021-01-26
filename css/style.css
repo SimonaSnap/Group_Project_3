@@ -1,7 +1,12 @@
-/* site background goes here */
+/* Background Image Desktop */
 body{
+    background-image: url(../images/SITE\ BACKGROUND\ -\ V2\ Desktop\ 1440W.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: varela, sans-serif;
 }
+
 /* Varela Google Open Font - H1 to H5 */
 h1{
     font-size:50px;
@@ -15,7 +20,7 @@ h2{
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color:#36494E;
 }
 h3{
     font-size:28px;
@@ -25,18 +30,18 @@ h3{
     color:#ffffff;
 }
 h4{
-    font-size:21px;
+    font-size:18px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color:#36494E;
 }
 h5{
     font-size:12px;
     font-family: 'Varela', sans-serif;
     font-weight:400;
     padding: 5px;
-    color:red;
+    color:#36494E;
 }
 /* Quasimodo Adobe Font - body and small body */
 .bodyfont{
@@ -50,8 +55,8 @@ h5{
     font-family: 'quasimoda', sans-serif;
     font-weight: 400;
     font-style: normal;
+    color:#36494E;
 }
-
 .navigation {
     display: flex;
     justify-content: space-around;
@@ -115,7 +120,7 @@ h5{
     width:30%;
     height:75px;
     margin:0px;
-    padding:0px;
+    padding:5px;
     color: #ffffff;
     font-size: 28px;
     text-align:center;
@@ -128,7 +133,7 @@ h5{
     width:10%;
     height:40px;
     margin:0px;
-    padding:0px;
+    padding:2px;
     color:#36494E;
     font-size: 18px;
     text-align:center;
@@ -142,7 +147,7 @@ h5{
     height:30px;
     margin:0px;
     padding:0px;
-    color:rgba(54, 73, 78, 1);
+    color:#36494E;
     font-size: 12px;
     text-align:center;
     text-decoration:none;
