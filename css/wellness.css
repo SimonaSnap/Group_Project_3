@@ -1,6 +1,6 @@
 body{
     background-image: url(../images/profile_background.png);
-    background-size: 101%;
+    background-size: 104%;
     background-repeat: no-repeat;
     font-family: 'Varela', sans-serif;
 }
@@ -811,7 +811,7 @@ a:active{
 
     /* Resized buttons for Mobile Devices Only*/
     .body-nav{
-        width:110%;
+        width:170%;
         height:96px;
         margin:0px;
         padding:0px;
