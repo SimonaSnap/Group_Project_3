@@ -1,8 +1,9 @@
 body {
-    background-image: url("../images/Background.png");
+    background-image: url("../images/Homepage\ Backgound\ Desktop.png");
     background-color: #cccccc;
-    background-size: contain;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
    }
 
 

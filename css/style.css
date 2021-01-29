@@ -748,6 +748,12 @@ a:visited {
          padding:10px;
      }
 
+     /*homepageweeklyprogress */
+     .homepageweeklyprogress{
+        overflow-x:scroll; 
+        border: 2px solid red;
+    }
+
     /* "footerflexgrid" for tablet*/
     .footerflexgrid-tablet{
     width:100vw;
