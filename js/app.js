@@ -1,9 +1,9 @@
 // var helloWorld = 'Hello World!';
 
-// $(".primary-nav").hover(function(){
+// $(".primary-nav-desktop").hover(function(){
 //     $(this).css({
 //         "font-size": "24px",
-//         "color": "red"
+//         "color": "#ffffff",
 //     });
 //     }, function(){
 //     $(this).css({
