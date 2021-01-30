@@ -57,22 +57,6 @@ h5{
     font-style: normal;
     color:#36494E;
 }
-.navigation {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    background-color: #F9F9F9;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    padding:10px;
-    position: fixed;
-    z-index: 1 !important;
-    }
-.link {
-    border: rgba(0, 0, 0, 0);
-    background-color: rgba(0, 0, 0, 0);
-}
 
 /* Logo formatting */
 .primarylogo{
@@ -165,7 +149,7 @@ h5{
     padding:5px;
     align-items: flex-end;
     justify-content: flex-end;
-    border: 1px solid blue;  
+    border: none;
 }
 .subheadcopyposition{
     display: flex;
@@ -175,7 +159,7 @@ h5{
     padding:5px;
     align-items: start;
     justify-content: center;
-    border: 1px solid blue;  
+    border: none;
 }
 .bodybutton{
     display: flex;
@@ -185,7 +169,7 @@ h5{
     padding:5px;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;  
+    border: none;  
 }
 .weeklybutton{
     display: flex;
@@ -195,7 +179,8 @@ h5{
     padding:5px;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;  
+    border: none;
+
 }
 
 /* Unvisited Link  */
@@ -239,49 +224,49 @@ a:visited {
     grid-area:column1;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;  
 }
 .headercolumn2{
     grid-area:column2;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .headercolumn3{
     grid-area:column3;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .headercolumn4{
     grid-area:column4;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .headercolumn5{
     grid-area:column5;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .headercolumn6{
     grid-area:column6;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .headercolumn7{
     grid-area:column7;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .headercolumn8{
     grid-area:column8;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .headerflexgrid-tablet{
     display:none;
@@ -308,7 +293,7 @@ a:visited {
     grid-area:column1;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .subheadcopycolumn2{
     grid-area:column2;
@@ -316,43 +301,43 @@ a:visited {
     justify-content: center;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .subheadcopycolumn3{
     grid-area:column3;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .subheadcopycolumn4{
     grid-area:column4;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .subheadcopycolumn5{
     grid-area:column5;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .subheadcopycolumn6{
     grid-area:column6;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .subheadcopycolumn7{
     grid-area:column7;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .subheadcopycolumn8{
     grid-area:column8;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 
 /* This sections is built out to create the horizontal weekly progress section on the homepage */
@@ -374,43 +359,43 @@ a:visited {
     grid-area:column1;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .homepageweeklyprogresscolumn2{
     grid-area:column2;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .homepageweeklyprogresscolumn3{
     grid-area:column3;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .homepageweeklyprogresscolumn4{
     grid-area:column4;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .homepageweeklyprogresscolumn5{
     grid-area:column5;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .homepageweeklyprogresscolumn6{
     grid-area:column6;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .homepageweeklyprogresscolumn7{
     grid-area:column7;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 
 /* "sitecontentjoblify" flex grid + template areas */
@@ -455,49 +440,49 @@ a:visited {
     grid-area:column1;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .sitecontentcolumn2{
     grid-area:column2;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .sitecontentcolumn3{
     grid-area:column3;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .sitecontentcolumn4{
     grid-area:column4;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .sitecontentcolumn5{
     grid-area:column5;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .sitecontentcolumn6{
     grid-area:column6;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .sitecontentcolumn7{
     grid-area:column7;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .sitecontentcolumn8{
     grid-area:column8;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 
 /* This site content section is built out as an 8 x 8 grid */
@@ -639,37 +624,40 @@ a:visited {
     grid-area:column1;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .footercolumn2{
     grid-area:column2;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .footercolumn3{
     grid-area:column3;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .footercolumn4{
     grid-area:column4;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .footercolumn5{
     grid-area:column5;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
 }
 .footercolumn6{
     grid-area:column6;
     margin:2px;
     text-align: left;
-    border: 2px solid red;  
+    border: none;
+}
+.navigation{
+    display:none;
 }
 .footerflexgrid-tablet{
     display:none;
@@ -685,7 +673,7 @@ a:visited {
         font-family: 'Varela', sans-serif;
         font-weight:400;
         padding: 5px;
-        color:red;
+        color:#36494E;
     }
 }
 @media only screen and (max-width:1150px){
@@ -696,8 +684,8 @@ a:visited {
         font-family: 'Varela', sans-serif;
         font-weight:400;
         padding: 5px;
-        color: white;
-        }
+        color:#36494E;
+    }
 
     /* Logo formatting size down at 1150*/
     .primarylogo{
@@ -732,7 +720,7 @@ a:visited {
         font-family: 'Varela', sans-serif;
         font-weight:400;
         padding: 5px;
-        color:red;
+        color:#36494E;
     }
 
     /* "headerflexgrid" for tablet */
@@ -751,11 +739,11 @@ a:visited {
      /*homepageweeklyprogress */
      .homepageweeklyprogress{
         overflow-x:scroll; 
-        border: 2px solid red;
+        border: none;
     }
 
     /* "footerflexgrid" for tablet*/
-    .footerflexgrid-tablet{
+    /* .footerflexgrid-tablet{
     width:100vw;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -765,7 +753,25 @@ a:visited {
      ;
      grid-gap:10px;
      padding:10px;
- }
+ } */
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #F9F9F9;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding:10px;
+    position: fixed;
+    z-index: 1 !important;
+    }
+    
+.link {
+    border: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
  .tablet-tab{
      height:50px;
  }
@@ -792,10 +798,6 @@ a:visited {
      /* Subhead Copy - smaller */
      h1{
         font-size:18px;
-        font-family: 'Varela', sans-serif;
-        font-weight:400;
-        padding: 5px;
-        color:red;
     }
 
     /* "headerflexgrid" for mobile */
@@ -816,29 +818,18 @@ a:visited {
         width:80%;
         height:50px;
         margin:0px;
-        padding:0px;
-        background-color: #062559;
+        padding:5px;
         color: #ffffff;
-        font-size: 18px;
+        font-size: 28px;
         text-align:center;
         text-decoration:none;
-        border-radius: 10px;
-        border-width: 2px;
-        border-color: #ffffff;
+        background: #17BEBB;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
     }
     .cta-nav{
         width:50%;
         height:40px;
-        margin:0px;
-        padding:0px;
-        background-color: #062559;
-        color: #ffffff;
-        font-size: 18px;
-        text-align:center;
-        text-decoration:none;
-        border-radius: 10px;
-        border-width: 2px;
-        border-color: #ffffff;
     }
     .tablet-tab{
         height:40px;

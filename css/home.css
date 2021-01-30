@@ -6,43 +6,79 @@ body {
     background-size: cover;
    }
 
-
-.navigation {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    background-color: #F9F9F9;s
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    padding:10px;
-    position: fixed;
-    z-index: 1 !important;
-    }
-
 .challenge-nav {
     background-color: #b5f9f3;
-    border: none;
-    width: 95%;
+    width: 50%;
+    height:75px;
     color: black;
-    padding: 15px 32px;
+    padding: 10px 10px;
+    border-color: #17BEBB;
     border-radius: 17px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    box-shadow: 0px 4px 4px #17BEBB;
 }    
 
 .wellness-nav {
     background-color: #17bebb;
-    border: none;
-    width: 95%;
+    width: 50%;
+    height:75px;
     color: black;
-    padding: 15px 32px;
+    padding: 10px 10px;
+    border-color: #17BEBB;
     border-radius: 17px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
+    box-shadow: 0px 4px 4px #17BEBB;
 }    
+
+.navigation{
+    display:none;
+}
+
+/*Tablet Settings Starting at Max Width: 834px*/
+@media only screen and (max-width:834px){
+
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        background-color: #F9F9F9;s
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        padding:10px;
+        position: fixed;
+        z-index: 1 !important;
+        }
+    
+    .link {
+            border: rgba(0, 0, 0, 0);
+            background-color: rgba(0, 0, 0, 0);
+    }
+    .challenge-nav {
+        width: 70%;
+        height:50px;
+        text-align: center;
+    }
+    .wellness-nav {
+        width: 70%;
+        height:50px;
+    }  
+    h4{
+        font-size:14px;
+    }
+
+/*Mobile Settings Starting at Max Width: 414px*/
+@media only screen and (max-width:414px){
+    .challenge-nav {
+        width: 100%;
+    }
+    .wellness-nav {
+        width: 100%;
+    }  
+}
 
